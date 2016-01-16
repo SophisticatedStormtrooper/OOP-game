@@ -12,6 +12,9 @@
 		C04DCBDF1C49E0570057DFD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04DCBDD1C49E0570057DFD8 /* Main.storyboard */; };
 		C04DCBE11C49E0570057DFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04DCBE01C49E0570057DFD8 /* Assets.xcassets */; };
 		C04DCBE41C49E0570057DFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04DCBE21C49E0570057DFD8 /* LaunchScreen.storyboard */; };
+		C04DCBEC1C49E7420057DFD8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DCBEB1C49E7420057DFD8 /* Character.swift */; };
+		C04DCBEE1C49EAA80057DFD8 /* Player1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DCBED1C49EAA80057DFD8 /* Player1.swift */; };
+		C04DCBF21C49EE260057DFD8 /* Player2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DCBF11C49EE260057DFD8 /* Player2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C04DCBE01C49E0570057DFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04DCBE31C49E0570057DFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04DCBE51C49E0570057DFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04DCBEB1C49E7420057DFD8 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		C04DCBED1C49EAA80057DFD8 /* Player1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player1.swift; sourceTree = "<group>"; };
+		C04DCBF11C49EE260057DFD8 /* Player2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		C04DCBD81C49E0570057DFD8 /* OOP-game */ = {
 			isa = PBXGroup;
 			children = (
+				C04DCBE51C49E0570057DFD8 /* Info.plist */,
 				C04DCBD91C49E0570057DFD8 /* AppDelegate.swift */,
 				C04DCBDB1C49E0570057DFD8 /* ViewController.swift */,
-				C04DCBDD1C49E0570057DFD8 /* Main.storyboard */,
 				C04DCBE01C49E0570057DFD8 /* Assets.xcassets */,
 				C04DCBE21C49E0570057DFD8 /* LaunchScreen.storyboard */,
-				C04DCBE51C49E0570057DFD8 /* Info.plist */,
+				C04DCBDD1C49E0570057DFD8 /* Main.storyboard */,
+				C04DCBEB1C49E7420057DFD8 /* Character.swift */,
+				C04DCBED1C49EAA80057DFD8 /* Player1.swift */,
+				C04DCBF11C49EE260057DFD8 /* Player2.swift */,
 			);
 			path = "OOP-game";
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04DCBEE1C49EAA80057DFD8 /* Player1.swift in Sources */,
+				C04DCBF21C49EE260057DFD8 /* Player2.swift in Sources */,
+				C04DCBEC1C49E7420057DFD8 /* Character.swift in Sources */,
 				C04DCBDC1C49E0570057DFD8 /* ViewController.swift in Sources */,
 				C04DCBDA1C49E0570057DFD8 /* AppDelegate.swift in Sources */,
 			);
